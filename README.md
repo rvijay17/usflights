@@ -6,7 +6,7 @@ The resulting data frame is stored in the disk as a parquet file format.
 ## 02 Data Loading
 The parquet file is read and then loaded into PostgreSQL database. The schema has two dimension tables and one fact table.
 
-![](&&&SFLOCALFILEPATH&&&star.png)
+![](star.png)
 
 
 ### DIM_AIRPORT
