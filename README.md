@@ -1,6 +1,6 @@
 # US Flight Data
 ## 01 Data Cleansing
-This Python notebook cleanses the data, chooses appropriate data types and performs conversions to fit into PostgreSQL data type. For example, ARRTIME and DEPTIME were in the format _nnnn_ which had to be converted to the format _nn:nn:00_ so that it could be saved in **time** datatype.
+This Python notebook cleanses the data, chooses appropriate data types and performs conversions to fit into PostgreSQL data type. For example, ARRTIME and DEPTIME were in the format _nnnn_ which had to be converted to the format _nn:nn:00_ so that it could be saved as **time** datatype.
 The resulting data frame is stored in the disk as a parquet file format.
 
 ## 02 Data Loading
